@@ -75,6 +75,10 @@ padding: 20px;
   text-align: center;
 }
 
+.insta{
+  color: black;
+}
+
 .service-item img {
     transition: .5s;
 }
