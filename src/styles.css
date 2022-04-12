@@ -1,3 +1,7 @@
+body {
+  background: linear-gradient(white, white, #e0f1f8, white, #f2d6db, white, #e0f1f8, white, white);
+}
+
 .hero {
   text-align: center;
   padding: 0px 20px;
@@ -18,10 +22,38 @@
   text-transform: capitalize;
   margin: 5px;
 }
-.nav-link:hover {
+.contact:hover {
   cursor: pointer;
   border: 1px solid black;
+  background: #5BCFFB;
 }
+
+.about:hover {
+  cursor: pointer;
+  border: 1px solid black;
+  background: #F5ABB9;
+}
+
+.services:hover {
+  cursor: pointer;
+  border: 1px solid black;
+  background: #fcf434;
+}
+
+.reservation:hover {
+  cursor: pointer;
+  border: 1px solid black;
+  background: #9c59d1;
+}
+
+.acontact:hover {
+  cursor: pointer;
+  border: 1px solid black;
+  background: #baf484;
+  color:black;
+}
+
+
 .navbar-brand-title {
   color: black !important;
 }
@@ -87,7 +119,3 @@ padding: 20px;
     transform: scale(1.1);
 }
 
-.work,
-.coach {
-  margin-left: 90px;
-}
