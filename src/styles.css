@@ -33,13 +33,15 @@ body {
 .contact:hover {
   cursor: pointer;
   border: 1px solid black;
-  background: #5BCFFB;
+  background: #9c59d1;
+  color: #ffffff !important;
 }
 
 .about:hover {
   cursor: pointer;
   border: 1px solid black;
-  background: #F5ABB9;
+  background: #000000;
+  color: white !important;
 }
 
 .services:hover {
@@ -57,7 +59,7 @@ body {
 .acontact:hover {
   cursor: pointer;
   border: 1px solid black;
-  background: #baf484;
+  background: #fcf434;
   color:black;
 }
 
