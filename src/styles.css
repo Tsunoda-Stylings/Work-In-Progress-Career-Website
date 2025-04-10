@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(white, #e0f1f8, #e0f1f8, white, #f2d6db, white, #e0f1f8, white, white);
+  background: linear-gradient(black);
 }
 
 .hero {
@@ -19,12 +19,16 @@ body {
   padding-top: 40px;
 }
 
+h1,h2,h3,h4 {
+  color: white;
+}
+
 .navbar-brand:hover {
   text-decoration: underline;
 }
 .nav-link {
-  color: black !important;
-  border: 1px solid black;
+  color: white !important;
+  border: 1px solid white;
   border-radius: 4px;
   text-decoration: none;
   text-transform: capitalize;
@@ -32,47 +36,47 @@ body {
 }
 .contact:hover {
   cursor: pointer;
-  border: 1px solid black;
+  border: 1px solid white;
   background: #9c59d1;
   color: #ffffff !important;
 }
 
 .about:hover {
   cursor: pointer;
-  border: 1px solid black;
+  border: 1px solid white;
   background: #000000;
   color: white !important;
 }
 
 .services:hover {
   cursor: pointer;
-  border: 1px solid black;
+  border: 1px solid white;
   background: #fcf434;
+  color:black !important;
 }
 
 .reservation:hover {
   cursor: pointer;
-  border: 1px solid black;
+  border: 1px solid white;
   background: #9c59d1;
 }
 
 .acontact:hover {
   cursor: pointer;
-  border: 1px solid black;
+  border: 1px solid white;
   background: #fcf434;
-  color:black;
 }
 
 
 .navbar-brand-title {
-  color: black !important;
+  color: white !important;
 }
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(167, 106, 218, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .custom-toggler.navbar-toggler {
-  border-color: black
+  border-color: white
 }
 
 .WIPlogo {
@@ -83,7 +87,7 @@ body {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background: black;
+  background: white;
   width: 50px;
   height: 50px;
   display: block;
@@ -106,7 +110,7 @@ body {
   transition: all 0.7s ease;
 }
 #return-to-top:hover i {
-  color: black;
+  color: white;
 }
 
 p {
@@ -115,10 +119,11 @@ padding: 20px;
   font-size: 28px;
   line-height: 1.5;
   text-align: center;
+  color: #ffffff;
 }
 
 .insta{
-  color: black;
+  color: white;
 }
 
 .service-item img {
@@ -133,4 +138,5 @@ padding: 20px;
   display: flex;
   margin: 30px 0;
   justify-content: center;
+  color: #ffffff !important;
 }
